@@ -1,0 +1,99 @@
+.TopBar{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    padding-top: 10px;
+}
+
+.BreadCrumbs{
+    margin-left: 20px;
+}
+
+.firstLB{
+    display: flex;
+    align-items: center;
+}
+
+.LowerBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #3298a4;
+}
+ 
+.User h1{
+    color: #3298a4;
+}
+.LowerBar .fa-arrow-alt-circle-left{
+    padding: 0px 20px;
+    border: none;
+    font-size: 30px;
+    color: #3298a4;
+    cursor: pointer;
+}
+
+.LowerBar .fa-arrow-alt-circle-left:hover{
+    color: #a4c4c0;
+}
+
+.listItem{
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-right: 1px solid #3298a4;
+    border-left: 1px solid #3298a4;
+}
+
+.listItem:last-child{
+    border-bottom: 1px solid #3298a4;
+}
+
+.listItem:hover{
+    background-color: #a4c4c0;;
+}
+
+.list{
+    width: 210px;
+    list-style-type: none;
+    padding-left: 10px;
+    position: absolute;
+    top: 50%;
+    left: -7%;
+}
+
+.dropDown{
+    padding-right: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.dropDown p{
+    width: 170px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.dropDown .fa-caret-down:hover{
+   opacity: 0.5;
+}
+
+
+.dropDown p::after{
+    content: '';
+    width: 124%;
+    height: 2px;
+    background-color: #3298a4;
+    position: absolute;
+    top: 110%;
+    left: -5%;
+}
+
+.fa-caret-down{
+    cursor: pointer;
+    border: none;
+    font: 16px;
+}

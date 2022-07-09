@@ -1,0 +1,106 @@
+:root{
+    --backColor:#cbf8f1;
+}
+
+.About{
+    margin-top: 30px;
+}
+
+.LB{
+    background-color: var(--backColor);
+    padding: 25px;
+    border: 1px solid #8d8d8d;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.Container{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.About .Container .Status{
+    color: red;
+    width:100%;
+    padding: 5px 0px;
+    border: 0.5px solid #8d8d8d;
+    background-color: var(--backColor);
+    font-weight: 700;
+}
+
+.AboutHeading{
+    text-align: center;
+    border: 0.5px solid #8d8d8d;
+    width: 100%;
+    margin: 0px auto;
+    background-color: var(--backColor);
+}
+
+.AboutHeading h1{
+    color: #048484;
+}
+
+.FormsColumns, .DocInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    border: 0.5px solid #8d8d8d;
+    background-color: var(--backColor);
+    color: black;
+    font-weight: 800;
+}
+
+.FormsColumns .column{
+    width: 25%;
+    
+}
+
+.row1,.row2,.row3,.row4,.row5,.row6,.row7,.row8,.row9,.row10{
+    /* margin: 5px 0px; */
+    height: 50px;
+    display: flex;align-items: center;
+    border: 0.5px solid #8d8d8d;
+    padding-left: 10px;
+}
+
+.About .FormsColumns .column input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--backColor);
+    color: black;
+}
+
+.About .FormsColumns .column select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--backColor);
+    color: black;
+    padding-left: 15px;
+}
+
+.About .DocInput .DocColumn{
+    width: 50%;
+}
+
+.About .DocInput{
+    margin-top: 20px;
+}
+
+.DocRow1, .DocRow2{
+    height: 50px;
+    display: flex;align-items: center;
+    border: 0.5px solid #8d8d8d;
+    padding-left: 10px;
+}
+
+.About .DocInput .DocColumn input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--backColor);
+    color: black;
+}

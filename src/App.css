@@ -1,0 +1,10 @@
+ul {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    z-index: 10;
+}

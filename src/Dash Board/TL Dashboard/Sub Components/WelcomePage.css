@@ -1,0 +1,31 @@
+
+
+.WelcomePage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    width: 80vw;
+}
+
+.WelcomePage a{
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 400px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.WelcomePage a:hover{
+    opacity: 1;
+}
+
+.WelcomePage a img{
+    width: 300px;
+    height: 400px;
+}
+
+.BoxHeading{
+    text-align: center;
+}
